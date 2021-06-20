@@ -1,0 +1,83 @@
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+}
+
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.7rem;
+    background-color: var(--main-red);
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li {
+    font-size: 1.4em;
+}
+
+.navbar li a {
+    color: var(--main-white);
+    padding: .6em;
+}
+
+.navbar li a:hover {
+    background-color: var(--main-blue);
+}
+
+
+
+#welcome-section {
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    
+}
+
+#welcome-text {
+    font-size: 3.5em;
+    position: inherit;
+    top: 50%;
+    color: var(--main-white);
+}
+
+#subtitle-welcome {
+    font-size: 2em;
+    position: inherit;
+    top: 50%;
+    font-style: italic;
+    color: var(--main-red);
+}
+
